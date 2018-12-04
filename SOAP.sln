@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAP", "SOAP\SOAP.csproj", "{1A7A4BD7-7419-46C2-A3AE-7C94E08470BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applicacion Layer", "Applicacion Layer", "{8702FCE8-BA6E-411B-B712-DB2A9BB589F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{26E132A8-1B41-4D48-8577-D5EF678C33F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infaresture Layer", "Infaresture Layer", "{910E2EAF-1531-4B52-A028-20EAAF96CDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "animals.comercial.credito.webservices", "animals.comercial.credito.webservices\animals.comercial.credito.webservices.csproj", "{EF4F80EF-857D-45EA-AC76-A192AD1AA580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals.Comecial.credito.contrato", "Animals.Comecial.credito.contrato\Animals.Comecial.credito.contrato.csproj", "{6216A7FF-9509-46A2-A909-C8860B304379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "animals.comercial.credito.implementacion", "animals.comercial.credito.implementacion\animals.comercial.credito.implementacion.csproj", "{5D37664A-B51E-491C-B011-5C568592692D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A7A4BD7-7419-46C2-A3AE-7C94E08470BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7A4BD7-7419-46C2-A3AE-7C94E08470BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7A4BD7-7419-46C2-A3AE-7C94E08470BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7A4BD7-7419-46C2-A3AE-7C94E08470BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4F80EF-857D-45EA-AC76-A192AD1AA580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4F80EF-857D-45EA-AC76-A192AD1AA580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4F80EF-857D-45EA-AC76-A192AD1AA580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4F80EF-857D-45EA-AC76-A192AD1AA580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6216A7FF-9509-46A2-A909-C8860B304379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6216A7FF-9509-46A2-A909-C8860B304379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6216A7FF-9509-46A2-A909-C8860B304379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6216A7FF-9509-46A2-A909-C8860B304379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D37664A-B51E-491C-B011-5C568592692D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D37664A-B51E-491C-B011-5C568592692D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D37664A-B51E-491C-B011-5C568592692D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D37664A-B51E-491C-B011-5C568592692D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A7A4BD7-7419-46C2-A3AE-7C94E08470BE} = {26E132A8-1B41-4D48-8577-D5EF678C33F0}
+		{EF4F80EF-857D-45EA-AC76-A192AD1AA580} = {8702FCE8-BA6E-411B-B712-DB2A9BB589F0}
+		{6216A7FF-9509-46A2-A909-C8860B304379} = {8702FCE8-BA6E-411B-B712-DB2A9BB589F0}
+		{5D37664A-B51E-491C-B011-5C568592692D} = {8702FCE8-BA6E-411B-B712-DB2A9BB589F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC23EAD7-7403-4E6C-BD78-0B317C50A51F}
+	EndGlobalSection
+EndGlobal
