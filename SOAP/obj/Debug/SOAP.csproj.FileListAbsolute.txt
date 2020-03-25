@@ -1,6 +1,0 @@
-C:\Users\miguel\source\repos\SOAP\SOAP\bin\Debug\SOAP.dll
-C:\Users\miguel\source\repos\SOAP\SOAP\bin\Debug\SOAP.pdb
-C:\Users\miguel\source\repos\SOAP\SOAP\obj\Debug\SOAP.csprojAssemblyReference.cache
-C:\Users\miguel\source\repos\SOAP\SOAP\obj\Debug\SOAP.csproj.CoreCompileInputs.cache
-C:\Users\miguel\source\repos\SOAP\SOAP\obj\Debug\SOAP.dll
-C:\Users\miguel\source\repos\SOAP\SOAP\obj\Debug\SOAP.pdb
