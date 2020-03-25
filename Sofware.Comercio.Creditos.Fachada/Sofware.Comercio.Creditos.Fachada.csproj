@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Software.Comercial.Credito.ContratoRepositorio\Software.Comercial.Credito.ContratoRepositorio.csproj">
+      <Project>{b76590ba-fe55-4c77-96e2-925ae3927807}</Project>
+      <Name>Software.Comercial.Credito.ContratoRepositorio</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Software.Comercial.Credito.Contrato\Software.Comercial.Credito.Contrato.csproj">
       <Project>{154c1e52-576f-4f1d-9cfa-d0f2ee46a67e}</Project>
       <Name>Software.Comercial.Credito.Contrato</Name>
@@ -52,6 +56,10 @@
     <ProjectReference Include="..\Software.Comercial.Credito.Dominio1\Software.Comercial.Credito.Dominio1.csproj">
       <Project>{633d7e06-efff-475f-a40b-5e11d51f2765}</Project>
       <Name>Software.Comercial.Credito.Dominio1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Software.Comercial.Credito.SqlRepositorio\Software.Comercial.Credito.SqlRepositorio.csproj">
+      <Project>{26e5cb3f-beb5-4f8c-a2df-a4682e6f7e86}</Project>
+      <Name>Software.Comercial.Credito.SqlRepositorio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
