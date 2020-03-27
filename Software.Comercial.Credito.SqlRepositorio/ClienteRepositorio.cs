@@ -2,6 +2,10 @@
 
 using System.Collections.Generic;
 using Software.Comercial.Credito.ContratoRepositorio;
+using Dapper;
+using System.Data;
+using System.Data.SqlClient;
+
 namespace Software.Comercial.Credito.SqlRepositorio
 {
     public class ClienteRepositorio :  IClienteRepositorio  
@@ -9,7 +13,26 @@ namespace Software.Comercial.Credito.SqlRepositorio
 
          public Cliente ObtenerCliente(string NumDocuemto)
         {
-            return null;
+            using (IDbConnection conexion = new SqlConnection(ConexionRepositorio.ObtenerCadenaConexion()))
+            {
+                conexion.Open();
+                var parametros = new DynamicParameters();
+                parametros.Add("pNumeroDocumento",NumDocuemto);
+
+
+                var cliente = conexion.QuerySingle<Cliente>("dbo.sp_cliente_obtener", param: parametros, commandType: CommandType.StoredProcedure);
+
+                return cliente;
+
+
+
+
+
+
+             
+            }
+
+                 
         }
 
 
@@ -18,7 +41,17 @@ namespace Software.Comercial.Credito.SqlRepositorio
 
         public IEnumerable<Cliente> ListaCliente()
         {
-            return null;
+            using (IDbConnection conexion = new SqlConnection(ConexionRepositorio.ObtenerCadenaConexion()))
+            {
+                conexion.Open();
+
+
+
+                var cliente = conexion.Query<Cliente>("dbo.sp_cliente_listar", commandType: CommandType.StoredProcedure);
+
+                return cliente;
+            }
+
         }
 
     }
